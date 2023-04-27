@@ -27,7 +27,7 @@ class Crawler:
     def __init__(self, query):
         self.query = query
         self.results_per_page = 10
-        self.num_pages = 100
+        self.num_pages = 1000
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) '
                           'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
